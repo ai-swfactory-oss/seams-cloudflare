@@ -2,7 +2,7 @@
 
 Seams for Cloudflare: Pages, KV and Wrangler. Each seam is a typed SDK with a fake under `./testing`, so code that talks to Cloudflare can be tested without it.
 
-The code arrives by migration from `ai-swfactory/seams`; until then the packages are skeletons.
+This repository holds only the guarded skeleton so far: `createSeamsCloudflare` returns a seam that lists no projects, `createSeamsWrangler` returns a seam whose run exits 0 with no output, and each package's `./testing` holds a fake of its seam.
 
 ## Packages
 
